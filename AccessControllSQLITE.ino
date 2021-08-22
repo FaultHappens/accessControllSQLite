@@ -1,4 +1,4 @@
-//RC522
+//RC522, RTC, SQLite
 
 #include <virtuabotixRTC.h>
 #include <EEPROM.h>
