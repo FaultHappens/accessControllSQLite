@@ -1,0 +1,24 @@
+ESP32    /     Modules
+3V3     ->     SD(+), RFID1(+), RFID2(+)
+GND     ->     SD(-), RFID1(-), RFID2(-), BIZZER(-)
+D15     ->     SD(CS)
+D2      ->     RFID1(RST)
+D4      ->     RFID1(SDA)
+D5      ->     RFID2(SDA)
+D18     ->     RFID1(SCK), RFID2(SCK)
+D19     ->     RFID1(MISO), RFID2(MISO)
+D21     ->     RFID2(RST)
+D23     ->     RFID1(MOSI), RFID2(MOSI)
+
+VIN     ->     RELAY(VCC), RTC(VCC)
+GND     ->     RELAY(GND), RTC(GND)
+D13     ->     SD(MOSI)
+D14     ->     SD(CLK)
+D27     ->     RTC(RST)
+D26     ->     RTC(DAT)
+D25     ->     RTC(CLK)
+D27     ->     RELAY(IN1)
+D26     ->     BIZZER(+)
+D32     ->     SD(MISO)
+
+
